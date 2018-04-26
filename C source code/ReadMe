@@ -1,0 +1,4 @@
+
+//to create shared library
+gcc -fPIC -c -o getTonicDrone.o getTonicDrone.c
+gcc -shared -o getTonicDrone.so getTonicDrone.o -lsndfile
